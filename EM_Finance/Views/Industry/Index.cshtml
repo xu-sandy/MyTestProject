@@ -1,0 +1,109 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+<div id="main" style="height:950px;width:1800px"></div>
+<script>
+
+    var myChart = echarts.init(document.getElementById('main'));
+
+    var rdata=@Html.Raw(ViewBag.nameArr);
+    var keyvalue=@Html.Raw(ViewBag.keyValueArr);
+
+    var xAxisData = [];
+    var data1 = [];
+    var data2 = [];
+    for (var i = 0; i < rdata.length; i++) {
+        xAxisData.push(rdata[i]);
+        data1.push(keyvalue[i].value);
+        //data2.push((Math.cos(i / 5) * (i / 5 - 10) + i / 6) * 5);
+    }
+
+    option = {
+        title: {
+            text: 'Eastern wealth industry capital flows-概念'
+        },
+        legend: {
+            data: @Html.Raw(ViewBag.nameArr),
+            align: 'left'
+        },
+        toolbox: {
+            // y: 'bottom',
+            feature: {
+                magicType: {
+                    type: ['stack', 'tiled']
+                },
+                dataView: {},
+                saveAsImage: {
+                    pixelRatio: 2
+                }
+            }
+        },
+        tooltip: {},
+        xAxis: {
+            data: xAxisData,
+            silent: false,
+            splitLine: {
+                show: false
+            }
+        },
+        yAxis: {
+        },
+        series: [{
+            name: '',
+            type: 'bar',
+            data: data1,
+            animationDelay: function (idx) {
+                return idx * 10;
+            }
+        },// {
+        //    name: 'bar2',
+        //    type: 'bar',
+        //    data: data2,
+        //    animationDelay: function (idx) {
+        //        return idx * 10 + 100;
+        //    }
+        //}
+        ],
+        animationEasing: 'elasticOut',
+        animationDelayUpdate: function (idx) {
+            return idx * 5;
+        }
+    };
+
+    @*var option = {
+        title: {
+            text: '你猜这是什么',
+            subtext: '',
+            x: 'center'
+        },
+        tooltip: {
+            trigger: 'item',
+            formatter: "{a} <br/>{b} : {c} ({d}%)"
+        },
+        legend: {
+            orient: 'vertical',
+            left: 'left',
+            data: @Html.Raw(ViewBag.nameArr),
+        },
+        series: [
+            {
+                name: '资金流',
+                type: 'pie',
+                radius: '55%',
+                center: ['50%', '80%'],
+                data: @Html.Raw(ViewBag.keyValueArr),
+                itemStyle: {
+                    emphasis: {
+                        shadowBlur: 10,
+                        shadowOffsetX: 0,
+                        shadowColor: 'rgba(0, 0, 0, 0.5)'
+                    }
+                }
+            }
+        ]
+    };*@
+
+
+    //var option = {};
+    myChart.setOption(option);
+</script>

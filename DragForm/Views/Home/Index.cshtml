@@ -1,0 +1,54 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+<script src="~/Scripts/Tdrag.js"></script>
+<style type="text/css">
+    #div1, #div2 {
+        float: left;
+        height: 500px;
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid #aaaaaa;
+    }
+
+    #div1 {
+        width: 200px;
+    }
+
+    #div2 {
+        width: 300px;
+    }
+</style>
+<script type="text/javascript">
+    function allowDrop(ev) {
+        ev.preventDefault();
+    }
+
+    function drag(ev) {
+        ev.dataTransfer.setData("Text", ev.target.id);
+    }
+
+    function drop(ev) {
+        ev.preventDefault();
+        var data = ev.dataTransfer.getData("Text");
+        ev.target.appendChild(document.getElementById(data));
+    }
+    $("#div2").Tdrag({
+        scope: "#div2"
+    });
+
+</script>
+
+
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+    <div>
+        <label draggable="true" ondragstart="drag(event)" id="drag1">#{tag1}</label>
+    </div>
+    <div>
+        <label draggable="true" ondragstart="drag(event)" id="drag2">#{tag2}</label>
+    </div>
+    <div>
+        <label draggable="true" ondragstart="drag(event)" id="drag3">#{tag3}</label>
+    </div>
+</div>
+<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>

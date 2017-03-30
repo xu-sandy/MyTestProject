@@ -1,0 +1,5 @@
+C:\Users\Administrator\Desktop\test\EM_Domain\bin\Release\EM_Domain.dll
+C:\Users\Administrator\Desktop\test\EM_Domain\bin\Release\EM_Domain.pdb
+C:\Users\Administrator\Desktop\test\EM_Domain\obj\Release\EM_Domain.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\test\EM_Domain\obj\Release\EM_Domain.dll
+C:\Users\Administrator\Desktop\test\EM_Domain\obj\Release\EM_Domain.pdb

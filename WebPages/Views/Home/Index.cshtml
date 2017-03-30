@@ -1,0 +1,41 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div align="center">
+    <canvas id="q" width="500" height="500"></canvas>
+</div>
+<script>
+
+    $(document).ready(function () {
+        alertDom("sss");
+        var q = $("#q");
+        var width = q.width = s.width;
+        var height = q.height;
+        var yPositions = Array(300).join(0).split('');
+        var ctx = q[0].getContext('2d');
+
+        var draw = function () {
+            ctx.fillStyle = 'rgba(0,0,0,.05)';
+            ctx.fillRect(0, 0, width, height);
+            ctx.fillStyle = 'green';
+            ctx.font = '10pt Georgia';
+            yPositions.map(function (y, index) {
+                text = String.fromCharCode(1e2 + Math.random() * 33);
+                x = (index * 10) + 10;
+                q[0].getContext('2d').fillText(text, x, y);
+                if (y > Math.random() * 1e4) {
+                    yPositions[index] = 0;
+                } else {
+                    yPositions[index] = y + 10;
+                }
+            });
+        };
+        RunMatrix();
+
+        function RunMatrix() {
+            Game_Interval = setInterval(draw, 1000);
+
+        }
+    });
+</script>

@@ -1,0 +1,5 @@
+C:\Users\Administrator\Desktop\test\So\bin\Debug\So.exe
+C:\Users\Administrator\Desktop\test\So\bin\Debug\So.pdb
+C:\Users\Administrator\Desktop\test\So\obj\Debug\So.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\test\So\obj\Debug\So.exe
+C:\Users\Administrator\Desktop\test\So\obj\Debug\So.pdb

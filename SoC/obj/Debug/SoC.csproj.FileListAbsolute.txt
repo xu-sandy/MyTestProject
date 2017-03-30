@@ -1,0 +1,4 @@
+C:\Users\Administrator\Desktop\test\SoC\bin\Debug\SoC.exe
+C:\Users\Administrator\Desktop\test\SoC\bin\Debug\SoC.pdb
+C:\Users\Administrator\Desktop\test\SoC\obj\Debug\SoC.exe
+C:\Users\Administrator\Desktop\test\SoC\obj\Debug\SoC.pdb

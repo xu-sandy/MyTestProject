@@ -1,0 +1,7 @@
+C:\Users\Administrator\Desktop\test\ClearBarClient\bin\Debug\ClearBarClient.exe
+C:\Users\Administrator\Desktop\test\ClearBarClient\bin\Debug\ClearBarClient.pdb
+C:\Users\Administrator\Desktop\test\ClearBarClient\obj\Debug\ClearBarClient.Form1.resources
+C:\Users\Administrator\Desktop\test\ClearBarClient\obj\Debug\ClearBarClient.Properties.Resources.resources
+C:\Users\Administrator\Desktop\test\ClearBarClient\obj\Debug\ClearBarClient.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\test\ClearBarClient\obj\Debug\ClearBarClient.exe
+C:\Users\Administrator\Desktop\test\ClearBarClient\obj\Debug\ClearBarClient.pdb
