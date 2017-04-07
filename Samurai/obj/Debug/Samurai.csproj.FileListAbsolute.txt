@@ -1,0 +1,9 @@
+E:\MyTestProject\Samurai\obj\Debug\Samurai.csprojResolveAssemblyReference.cache
+E:\MyTestProject\Samurai\bin\Debug\Samurai.dll
+E:\MyTestProject\Samurai\bin\Debug\Samurai.pdb
+E:\MyTestProject\Samurai\bin\Debug\IWeapon.dll
+E:\MyTestProject\Samurai\bin\Debug\Weapon.dll
+E:\MyTestProject\Samurai\bin\Debug\IWeapon.pdb
+E:\MyTestProject\Samurai\bin\Debug\Weapon.pdb
+E:\MyTestProject\Samurai\obj\Debug\Samurai.dll
+E:\MyTestProject\Samurai\obj\Debug\Samurai.pdb

@@ -5,3 +5,11 @@ C:\Users\Administrator\Desktop\test\ClearBarClient\obj\Debug\ClearBarClient.Prop
 C:\Users\Administrator\Desktop\test\ClearBarClient\obj\Debug\ClearBarClient.csproj.GenerateResource.Cache
 C:\Users\Administrator\Desktop\test\ClearBarClient\obj\Debug\ClearBarClient.exe
 C:\Users\Administrator\Desktop\test\ClearBarClient\obj\Debug\ClearBarClient.pdb
+E:\MyTestProject\ClearBarClient\obj\Debug\ClearBarClient.exe
+E:\MyTestProject\ClearBarClient\obj\Debug\ClearBarClient.pdb
+E:\MyTestProject\ClearBarClient\bin\Debug\ClearBarClient.exe
+E:\MyTestProject\ClearBarClient\bin\Debug\ClearBarClient.pdb
+E:\MyTestProject\ClearBarClient\obj\Debug\ClearBarClient.csprojResolveAssemblyReference.cache
+E:\MyTestProject\ClearBarClient\obj\Debug\ClearBarClient.Form1.resources
+E:\MyTestProject\ClearBarClient\obj\Debug\ClearBarClient.Properties.Resources.resources
+E:\MyTestProject\ClearBarClient\obj\Debug\ClearBarClient.csproj.GenerateResource.Cache

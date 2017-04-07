@@ -1,0 +1,5 @@
+E:\MyTestProject\IWeapon\bin\Debug\IWeapon.dll
+E:\MyTestProject\IWeapon\bin\Debug\IWeapon.pdb
+E:\MyTestProject\IWeapon\obj\Debug\IWeaponPro.csprojResolveAssemblyReference.cache
+E:\MyTestProject\IWeapon\obj\Debug\IWeapon.dll
+E:\MyTestProject\IWeapon\obj\Debug\IWeapon.pdb

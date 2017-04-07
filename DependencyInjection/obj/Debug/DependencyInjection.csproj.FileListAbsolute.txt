@@ -1,0 +1,12 @@
+E:\MyTestProject\DependencyInjection\obj\Debug\DependencyInjection.csprojResolveAssemblyReference.cache
+E:\MyTestProject\DependencyInjection\bin\Debug\DependencyInjection.exe.config
+E:\MyTestProject\DependencyInjection\bin\Debug\DependencyInjection.exe
+E:\MyTestProject\DependencyInjection\bin\Debug\DependencyInjection.pdb
+E:\MyTestProject\DependencyInjection\bin\Debug\IWeapon.dll
+E:\MyTestProject\DependencyInjection\bin\Debug\Samurai.dll
+E:\MyTestProject\DependencyInjection\bin\Debug\Weapon.dll
+E:\MyTestProject\DependencyInjection\bin\Debug\IWeapon.pdb
+E:\MyTestProject\DependencyInjection\bin\Debug\Samurai.pdb
+E:\MyTestProject\DependencyInjection\bin\Debug\Weapon.pdb
+E:\MyTestProject\DependencyInjection\obj\Debug\DependencyInjection.exe
+E:\MyTestProject\DependencyInjection\obj\Debug\DependencyInjection.pdb
